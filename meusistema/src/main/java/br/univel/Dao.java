@@ -16,11 +16,11 @@ public class Dao {
 
 		public List<Aluno> getTodos() {
 			
-			Connection con = Arquivotxt;
+			Connection con = Arquivotxt
 					.getInstance()
 					.getConnection();
 			
-			List<Aluno> lista = new ArrayList<>();
+			List<Aluno> lista = new ArrayList<Aluno>();
 			try (PreparedStatement ps = con
 						.prepareStatement(SQL_BUSCA_TODOS);
 					ResultSet rs = ps.executeQuery()) {
@@ -38,7 +38,23 @@ public class Dao {
 			}
 			
 			return lista;
+		}
+
+		private void setId(long long1) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		private void setNome(String string) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		private void setTelefone(String string) {
+			// TODO Auto-generated method stub
+			
 		}		
 		
 	}
+}
 
