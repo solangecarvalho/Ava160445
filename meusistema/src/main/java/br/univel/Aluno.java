@@ -29,6 +29,16 @@ public class Aluno {
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
+
+	public void remover(Aluno aluno) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void adicionar(Aluno a) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	//C:\Users\Solange\git\Ava160445
 	//https://github.com/solangecarvalho/Ava160445.git
