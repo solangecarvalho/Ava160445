@@ -56,5 +56,12 @@ public class Dao {
 		}		
 		
 	}
+
+
+
+	public List<br.univel.Dao.Aluno> getTodos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
 
